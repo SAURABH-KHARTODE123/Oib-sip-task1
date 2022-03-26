@@ -1,0 +1,187 @@
+​<!DOCTYPE html​> 
+ ​<​html​> 
+ ​   ​<​head​> 
+ ​      ​<​title​>​Home​</​title​> 
+ ​      ​<​link​ ​rel​="​preconnect​" ​href​="​https://fonts.googleapis.com​"​> 
+ ​      ​<​link​ ​rel​="​preconnect​" ​href​="​https://fonts.gstatic.com​" ​crossorigin​> 
+ ​      ​<​link​ ​href​="​https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap​" ​rel​="​stylesheet​"​> 
+ ​      ​<​style​ ​type​="​text/css​"​> 
+ ​         ​*​{ 
+ ​         ​margin​:​0​; 
+ ​         ​padding​:​ ​0​; 
+ ​         ​box-sizing​:​ border-box; 
+ ​         }​body​{ 
+ ​         ​font-family​:​ ​'Poppins'​,​ sans-serif; 
+ ​         }​button​{ 
+ ​         ​font-family​:​ ​'Poppins'​,​ sans-serif; 
+ ​         }​nav​{ 
+ ​         ​width​:​100​%​; 
+ ​         ​max-width​:​ ​1280​px​; 
+ ​         ​padding​:​ ​0​ ​30​px​; 
+ ​         ​height​:​ ​70​px​; 
+ ​         ​display​:​ flex; 
+ ​         ​margin​:​auto; 
+ ​         ​align-items​:​ center; 
+ ​         ​justify-content​:​ space-between; 
+ ​         }​nav​ ​h1​{ 
+ ​         ​font-size​:​ ​40​px​; 
+ ​         ​font-weight​:​ ​600​; 
+ ​         }​ul​ ​li​{ 
+ ​         ​display​:​ inline-block; 
+ ​         ​list-style​:​ none; 
+ ​         ​margin-left​:​ ​10​px​; 
+ ​         ​margin-right​:​ ​10​px​; 
+ ​         ​font-weight​:​ normal; 
+ ​         ​cursor​:​ pointer; 
+ ​         }​ul​{ 
+ ​         ​background​:​ ​#​ff9a3099​; 
+ ​         ​padding​:​10​px​ ​25​px​; 
+ ​         ​border-radius​:​20​px​; 
+ ​         ​margin-right​:​ ​35​%​; 
+ ​         }.​circle​{ 
+ ​         ​width​:​350​px​; 
+ ​         ​height​:​ ​350​px​; 
+ ​         ​border-radius​:​ ​50​%​; 
+ ​         ​background​:​ ​#​ff9a30​;; 
+ ​         display​:​ ​flex​; 
+ ​         ​align-items​:​ ​center​; 
+ ​         ​flex-direction​:​ ​column​; 
+ ​         ​justify-content​:​ ​center​; 
+ ​         ​position​:​ ​fixed​; 
+ ​         ​bottom​:​ -200px; 
+ ​         ​left​:​ -40px; 
+ ​         }.​off​{ 
+ ​         ​font-size​:​ ​20​px​; 
+ ​         ​text-transform​:​ uppercase; 
+ ​         }.​circle​ ​h2​{ 
+ ​         ​margin-top​:​-140​px​; 
+ ​         }.​flex​{ 
+ ​         ​width​:​calc​(​100​%​ ​-​ ​30​px​); 
+ ​         ​position​:​ fixed; 
+ ​         ​bottom​:​ ​0​; 
+ ​         ​right​:​ ​0​; 
+ ​         ​display​:​ flex; 
+ ​         ​height​:​ ​110​px​; 
+ ​         ​z-index​:​ ​-1​; 
+ ​         ​background​:​ yellow; 
+ ​         }.​flex​ ​div​{ 
+ ​         ​flex​:​1​; 
+ ​         ​padding​:​ ​20​px​; 
+ ​         ​display​:​ flex; 
+ ​         ​justify-content​:​ center; 
+ ​         ​flex-direction​:​ column; 
+ ​         }.​flex​ ​div​:​nth-child​(​1​){ 
+ ​         ​background​:​ ​#​ffd457​; 
+ ​         } 
+ ​         .​flex​ ​div​:​nth-child​(​2​){ 
+ ​         ​background​:​ ​#​ffd457​; 
+ ​         } 
+ ​         .​flex​ ​div​:​nth-child​(​3​){ 
+ ​         ​background​:​ ​#​ffc823​; 
+ ​         } 
+ ​         .​flex​ ​div​:​nth-child​(​4​){ 
+ ​         ​background​:​ ​#​ffad23​; 
+ ​         }​section​{ 
+ ​         ​width​:​100​%​; 
+ ​         ​max-width​:​ ​1280​px​; 
+ ​         ​margin​:​auto;​padding​:​ ​0​ ​20​px​; 
+ ​         ​height​:​ ​calc​(​100​vh​ ​-​ ​180​px​); 
+ ​         ​display​:​ flex; 
+ ​         }.​left​,​.​right​{ 
+ ​         ​flex​:​1​; 
+ ​         }.​fix​{ 
+ ​         ​width​:​50​%​; 
+ ​         ​top​:​0​; 
+ ​         ​right​:​ ​0​; 
+ ​         ​z-index​:​ ​-2​; 
+ ​         ​height​:​ ​calc​(​100​vh​ ​-​ ​180​px​); 
+ ​         ​display​:​ flex; 
+ ​         ​align-items​:​ center; 
+ ​         ​justify-content​:​ center; 
+ ​         ​background​:​ ​#​ffc033​; 
+ ​         ​position​:​ fixed; 
+ ​         ​border-radius​:​ ​0​ ​0​ ​0​ ​100​px​; 
+ ​         }.​flex​ ​div​ ​h3​,​.​flex​ ​div​ ​p​{ 
+ ​         ​color​:​brown; 
+ ​         } 
+ ​         .​logo​{ 
+ ​         ​width​:​400​px​; 
+ ​         }.​left​{ 
+ ​         ​height​:​ ​calc​(​100​vh​ ​-​ ​180​px​); 
+ ​         ​display​:​ flex; 
+ ​         ​padding-right​:​ ​20​px​; 
+ ​         ​flex-direction​:​ column; 
+ ​         ​justify-content​:​ center; 
+ ​         }.​left​ ​h1​{ 
+ ​         ​font-size​:​ ​40​px​; 
+ ​         }.​left​ ​p​{ 
+ ​         ​margin-top​:​20​px​; 
+ ​         ​font-weight​:​ ​300​; 
+ ​         }.​left​ ​div​{ 
+ ​         ​margin-top​:​20​px​; 
+ ​         }.​left​ ​div​ ​button​{ 
+ ​         ​border​:​none; 
+ ​         ​outline​:​ none; 
+ ​         ​cursor​:​ pointer; 
+ ​         ​background​:​ ​#​ff9a30​;; 
+ ​         padding​:​ 10px 20px; 
+ ​         b​or​der​-​radius​:​ 50px; 
+ ​         transition​:​ .3s ease; 
+ ​         b​or​der​:​1px solid ​#​ff9a30​; 
+ ​         }.​left​ ​div​ ​button​:​nth-child​(​2​){ 
+ ​         ​margin-left​:​ ​20​px​; 
+ ​         ​background​:​ transparent; 
+ ​         ​border​:​1​px​ solid ​#​ff9a30​; 
+ ​         }.​left​ ​div​ ​button​:​nth-child​(​2​)​:​hover​{ 
+ ​         ​margin-left​:​ ​20​px​; 
+ ​         ​background​:​#​ff9a30​; 
+ ​         } 
+ ​      ​</​style​> 
+ ​   ​</​head​> 
+ ​   ​<​body​> 
+ ​      ​<​nav​> 
+ ​         ​<​h1​>​MK TRAVELS​</​h1​> 
+ ​         ​<​ul​> 
+ ​            ​<​li​>​Home​</​li​> 
+ ​            ​<​li​>​Videos​</​li​> 
+ ​            ​<​li​>​Contact​</​li​> 
+ ​            ​<​li​>​About​</​li​> 
+ ​         ​</​ul​> 
+ ​      ​</​nav​> 
+ ​      ​<​section​> 
+ ​         ​<​div​ ​class​="​left​"​> 
+ ​            ​<​h1​>​DISCOVER WORLDWIDE​</​h1​> 
+ ​            ​<​p​>​India, officially the Republic of India is a country in South Asia. It is the second-most populous country, the seventh-largest country by land area, and the most populous democracy in the world. Bounded by the Indian Ocean on the south.​</​p​> 
+ ​            ​<​br​>​<​h3​>​Book With Us And Book It Out Of Here!.​</​h3​>​</​br​> 
+ ​         ​<​div​>​<​button​>​Explore​</​button​>​<​button​>​Book Now​</​button​>​</​div​> 
+ ​         ​</​div​> 
+ ​         ​<​div​ ​class​="​right​"​> 
+ ​            ​<​div​ ​class​="​fix​"​> 
+ ​               ​<​img​ ​src​="​mk.png​" ​class​="​logo​"​> 
+ ​            ​</​div​> 
+ ​         ​</​div​> 
+ ​      ​</​section​> 
+ ​      ​<​div​ ​class​="​circle​"​> 
+ ​         ​<​h2​>​25% OFF​</​h2​> 
+ ​         ​<​P​ ​class​="​off​"​>​Hurry up! limited time ​</​P​> 
+ ​      ​</​div​> 
+ ​      ​<​div​ ​class​="​flex​"​> 
+ ​         ​<​div​>​</​div​> 
+ ​         ​<​div​> 
+ ​            ​<​h3​>​Asia​</​h3​> 
+ ​            ​<​p​>​“Life is a journey. Make the best of it.” 
+ ​            ​</​p​> 
+ ​         ​</​div​> 
+ ​         ​<​div​> 
+ ​            ​<​h3​>​Asia​</​h3​> 
+ ​            ​<​p​>​“It is better to travel one mile than to read a thousand books.” 
+ ​            ​</​p​> 
+ ​         ​</​div​> 
+ ​         ​<​div​> 
+ ​            ​<​h3​>​Asia​</​h3​> 
+ ​            ​<​p​>​“Life is short and the world is wide.” 
+ ​            ​</​p​> 
+ ​         ​</​div​> 
+ ​      ​</​div​> 
+ ​   ​</​body​> 
+ ​</​html​>
